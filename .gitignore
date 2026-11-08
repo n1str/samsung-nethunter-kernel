@@ -1,0 +1,25 @@
+# Samsung kernel source tree (opensource.samsung.com) - shipped as patches, not a copy
+/kernel/
+/kernel-source.tar.gz
+
+# stock boot image (user-specific, proprietary)
+/stock/
+
+# build outputs / binaries
+/out/
+
+# toolchains (see README for version/source)
+/toolchains/
+
+# compiled kernel image dropped into AnyKernel at build time
+/anykernel/Image*
+/anykernel/*.gz-dtb
+/anykernel/zImage*
+
+# proprietary firmware blobs / build artifacts
+*.img
+*.tar
+*.lz4
+*.enc*
+
+.DS_Store
